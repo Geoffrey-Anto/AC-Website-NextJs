@@ -1,32 +1,33 @@
 import webverse from '@assets/events/webverse.png'
-import recruitment from '@assets/events/recruitment.png'
-import krypthon from '@assets/events/krypthon.png'
+import cracking_interview from '@assets/events/cracking_interview.jpeg'
 import techknowcamp from '@assets/events/tech-know-camp.png'
+import task_ops_2 from '@assets/events/task_ops_2.jpeg'
 
 export const events = [
+  {
+    name: 'Cracking Interview',
+    description:
+      'Learn from seasoned seniors who have successfully balanced these aspects, sharing their secrets to conquering internships and excelling in interviews.',
+    img: cracking_interview,
+  },
+  {
+    name: 'TECH KNOW CAMP',
+    description:
+      'METICULOUSLY DESIGNED TO ADDRESS THE QUESTIONS AND DOUBTS YOU MAY HAVE ABOUT YOUR ACADEMIC AND CAREER PATH.',
+    img: techknowcamp,
+  },
   {
     name: 'WEB VERSE',
     description:
       'WEB DEVELOPMENT HACKATHON & SEMINAR WITH OVER 400+ PARTICIPATION FROM ALL OVER INDIA',
     img: webverse,
   },
-  {
-    name: 'FRESHER RECRUITMENT',
-    description:
-      'RECRUITMENT OF JUNIORS TO FORM THE CLUB TEAM FOR TERM 2023-2024',
-    img: recruitment,
-  },
-  {
-    name: 'KRYPTHON HACKATHON',
-    description: 'HACKATHON WITH MULTIPLE DOMAINS',
-    img: krypthon,
-  },
 ]
 
 export const upcomingEvent = {
-  name: 'TECH KNOW CAMP',
+  name: 'Task Ops 2.0',
   description:
-    'METICULOUSLY DESIGNED TO ADDRESS THE QUESTIONS AND DOUBTS YOU MAY HAVE ABOUT YOUR ACADEMIC AND CAREER PATH. WHETHER YOU ARE EXPLORING PROGRAMMING LANGUAGES 💻 OR SEEKING A CLEAR DIRECTION FOR YOUR FUTURE, OUR EVENT IS TAILOR-MADE TO EQUIP YOU WITH THE KNOWLEDGE YOU NEED. TO MAKE YOUR PARTICIPATION EVEN MORE CONVENIENT, WE KINDLY INVITE YOU TO REGISTER FOR THIS VALUABLE EVENT. THE REGISTRATION LINK IS PROVIDED ALONG WITH THE EVENT POSTER IN THIS EMAIL. 📝',
-  img: techknowcamp,
-  url: 'https://vtopcc6.vit.ac.in/chennai-events/eventPreview/368',
+    'Among Us was a big hit back in lockdown days, and we , the members of Android Club, are bringing back the spark to you guys✨. After the huge success of task ops, we are back with (no surprises for guessing the name) Task Ops 2.0 ✨ . Task Ops 2.0 brings the orignal fun you had while participating in Task Ops; completing certain tasks while having an imposter sabotage your tasks👻. Join us for a fun session ✨',
+  img: task_ops_2,
+  url: '',
 }

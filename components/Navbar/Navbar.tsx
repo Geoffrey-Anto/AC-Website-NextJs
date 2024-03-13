@@ -60,11 +60,11 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="flex md:hidden">
+        {/* <div className="flex md:hidden">
           <button className="p-2">
             <i className="fa-solid fa-bars text-3xl"></i>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   )

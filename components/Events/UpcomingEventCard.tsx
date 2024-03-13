@@ -18,9 +18,11 @@ const UpcomingEventCard = (event: {
           <div className="h-full bg-white w-2"></div>
           <p className="text-xl">{event.description.toUpperCase()}</p>
         </div>
-        <Link href={event.url}>
-          <button>REGISTER NOW</button>
-        </Link>
+        {event.url && (
+          <Link href={event.url}>
+            <button>REGISTER NOW</button>
+          </Link>
+        )}
       </div>
       <div className="flex justify-center w-1/2">
         <Image
